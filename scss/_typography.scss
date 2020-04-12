@@ -1,6 +1,29 @@
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 400;
+
+    &.lg-heading {
+        font-size: 6rem;
+    }
+
+    &.md-heading {
+        font-size: 3rem;
+    }
+}
+
+.text-secondary {
+    color: $secondary-color
+}
+
+.text-background {
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding:  0.2rem 1rem;
+    background: rgba(lighten($color: $primary-color, $amount: 2), 0.5);
+}
+
 .paragraph {
     padding: 1em;
-    //font-size: 2em;
 
     h1, h2, h3 {
         color: $secondary-color;
@@ -9,5 +32,9 @@
 
 .text-strong {
     font-weight: 400;
+}
+
+.uppercase { 
+    text-transform: uppercase;
 }
 

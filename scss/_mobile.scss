@@ -3,7 +3,10 @@
 }
 
 @include mediaLg {
-    
+    .post-list-item {
+        flex: 1 0 calc(50%);
+        max-width: calc(50%);
+    }
 }
 
 @include mediaMd {
@@ -43,6 +46,11 @@
             height: 150px;
             background-size: cover;
         }
+    }
+
+    .post-list-item {
+        flex: 1;
+        min-width: 100%;
     }
 }
 
