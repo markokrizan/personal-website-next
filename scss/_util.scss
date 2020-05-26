@@ -13,8 +13,11 @@
     flex-direction: column;  
     justify-content: center; 
     align-items: center;     
-    height: 100vh;
     text-align: center;
+}
+
+.full-heigth {
+    height: 100vh;
 }
 
 #particles-js{
@@ -26,4 +29,8 @@
 
 .mb-2{
     margin-bottom: 2rem;
+}
+
+.col-padding{
+	padding: 10px !important;
 }

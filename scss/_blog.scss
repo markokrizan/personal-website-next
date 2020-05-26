@@ -13,10 +13,6 @@
     max-width: calc(33.333%);
 }
 
-.col-padding{
-	padding: 10px !important;
-}
-
 .post-card{
 	width: 100%;
     float: left;
@@ -78,4 +74,14 @@
             }
 		}
 	}
+}
+
+.post-heading {
+	height: 50vh;
+	width: 100%;
+	background: rgba(lighten($color: $primary-color, $amount: 2), 0.5);
+}
+
+.post-body {
+	padding: 0 4em 0 4em;
 }
